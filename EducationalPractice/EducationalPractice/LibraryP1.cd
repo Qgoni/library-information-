@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EducationalPractice.Bibliotekar">
+    <Position X="3" Y="2.75" Width="2.5" />
+    <InheritanceLine Type="EducationalPractice.Employee" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="2" />
+        <Point X="4.5" Y="2" />
+        <Point X="4.5" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Postavshik" Type="EducationalPractice.Postavshik" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="4.125" />
+        <Point X="6.452" Y="4.125" />
+        <Point X="6.452" Y="8.177" />
+        <Point X="9.163" Y="8.177" />
+        <Point X="9.163" Y="3.875" />
+        <Point X="10.75" Y="3.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAAAAAAACAkAAAAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>Bibliotekar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Postavshik" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EducationalPractice.Employee">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.Postavshik">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="EducationalPractice.Employee" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="2.062" />
+        <Point X="11.75" Y="2.062" />
+        <Point X="11.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Postavshik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.Reg">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reg.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="KartochkaChitatelya" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EducationalPractice.KartochkaChitatelya">
+    <Position X="6.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAQAAAAAAAAAEAAABAAAAAAEAAgA=</HashCode>
+      <FileName>KartochkaChitatelya.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.Registrator" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQACAAAByCAABCCAADAYABSIAAYABICUGAAAAQQAAA=</HashCode>
+      <FileName>Registrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.InformationOtSupplire" Collapsed="true">
+    <Position X="18" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAQAAAAAGAQAAAAAAA=</HashCode>
+      <FileName>InformationOtSupplire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.MessageLibrary" Collapsed="true">
+    <Position X="16" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAABAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>MessageLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProcesses.Authorization" Collapsed="true">
+    <Position X="20.25" Y="1" Width="2.25" />
+    <AssociationLine Name="Librarian" Type="LibraryProcesses.Librarian" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.375" Y="1.691" />
+        <Point X="21.375" Y="2.066" />
+        <Point X="18.688" Y="2.066" />
+        <Point X="18.688" Y="2.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Supplier" Type="LibraryProcesses.Supplier" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.984" Y="1.691" />
+        <Point X="21.984" Y="2.066" />
+        <Point X="22.125" Y="2.066" />
+        <Point X="22.125" Y="2.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Registrator" Type="EducationalPractice.Registrator" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.312" Y="1.691" />
+        <Point X="22.312" Y="1.941" />
+        <Point X="25" Y="1.941" />
+        <Point X="25" Y="2.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACQAABEAASAAKJEAAACEAAACAAAIAAAAEBAAAQCAgAA=</HashCode>
+      <FileName>Authorization.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Librarian" />
+      <Property Name="Supplier" />
+      <Property Name="Registrator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibraryProcesses.Librarian" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.75" />
+    <AssociationLine Name="PoluchEzd" Type="EducationalPractice.PoluchEzd" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.75" Y="2.812" />
+        <Point X="14.688" Y="2.812" />
+        <Point X="14.688" Y="4" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="MessageLibrary" Type="EducationalPractice.MessageLibrary" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.75" Y="3.062" />
+        <Point X="16.5" Y="3.062" />
+        <Point X="16.5" Y="4" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="RegNewEzdanei" Type="EducationalPractice.RegNewEzdanei" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.5" Y="2.812" />
+        <Point X="21.25" Y="2.812" />
+        <Point X="21.25" Y="4" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAQAAAAQADAAABGAQBKAABACEMw7BxgQwFAPAQABgAA=</HashCode>
+      <FileName>Librarian.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PoluchEzd" />
+      <Property Name="MessageLibrary" />
+      <Property Name="RegNewEzdanei" />
+      <Property Name="InformationOtSupplire" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LibraryProcesses.Supplier" Collapsed="true">
+    <Position X="21.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACAAABiAABCAABACAAAwAABAADAQAAAAgAA=</HashCode>
+      <FileName>Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.PoluchEzd" Collapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEIASAAABIAAACBAABTIKA4AAAAUHAAAAAAABA=</HashCode>
+      <FileName>PoluchEzd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EducationalPractice.RegNewEzdanei" Collapsed="true">
+    <Position X="20.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAASAAABIAAACAQABTIBC4YQAAEHAAAAAAIAA=</HashCode>
+      <FileName>RegNewEzdanei.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,15 @@
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\bin\Debug\EducationalPractice.exe.config
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\bin\Debug\EducationalPractice.exe
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\bin\Debug\EducationalPractice.pdb
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.AssemblyReference.cache
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.SuggestedBindingRedirects.cache
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Properties.Resources.resources
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.GenerateResource.cache
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.CoreCompileInputs.cache
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.exe
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.pdb
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\bin\Debug\DatabaseLibraryFund.mdf
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\bin\Debug\DatabaseLibraryFund_log.ldf
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Authorization.resources
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Librarian.resources
+C:\Users\Q)\source\repos\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Supplier.resources
